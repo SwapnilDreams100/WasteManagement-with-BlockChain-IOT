@@ -1,0 +1,6 @@
+ swarm --bzzaccount 2d0f82a98d0dbca037b4d84212259e73ccbf0823  --datadir "~/iotbc" --ens-api '' --bzznetworkid 666 --bootnodes "enode://14b3e97fad01cda98dc80fbc68b49caebceff951d30b6ad91e75d8b632cf562aee17e6d0fb807d17d6920f1b275107856eec39c0f61981b9aacf61ada5722d58@127.0.0.1:30303" --corsdomain=*
+
+
+geth --rpc --rpccorsdomain "*" --datadir "~/iotbc" --rpcapi "db,eth,net,web3,personal" --networkid 42 --unlock 0 console
+
+
