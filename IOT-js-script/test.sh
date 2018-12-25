@@ -1,0 +1,4 @@
+#curl -H "Content-Type: text/plain" --data-binary '{ "timestamp": "3", "weight_filled":90, "payload": "payload from bin1" ,"lat":5.54,"lng":2.54,"type":1}' http://localhost:8500/bzz:/ > someFile.txt
+#curl -H "Content-Type: text/plain" --data-binary '{ "timestamp": "2", "weight_filled":70, "payload": "payload from bin2" ,"lat":1.54,"lng":3.54,"type":1}' http://localhost:8500/bzz:/ > someFile.txt
+#curl -H "Content-Type: text/plain" --data-binary '{ "timestamp": "1", "weight_filled":90, "payload": "payload from truck1" ,"lat":5.54,"lng":3.54,"type":0}' http://localhost:8500/bzz:/ > someFile.txt
+#curl -H "Content-Type: text/plain" --data-binary '{ "timestamp": "2", "weight_filled":80, "payload": "payload from truck2" ,"lat":1.56,"lng":3.56,"type":0}' http://localhost:8500/bzz:/ > someFile.txt
